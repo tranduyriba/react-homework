@@ -4,7 +4,6 @@
   padding: 2rem;
   text-align: center;
 }
-
 .product-card {
   border: 1px solid blueviolet;
   max-width: 350px;
@@ -39,4 +38,7 @@ li {
   padding: 20px;
   max-width: 1200px;
   margin: 0 auto;
+}
+a {
+  text-decoration: none;
 }

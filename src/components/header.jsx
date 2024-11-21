@@ -1,12 +1,10 @@
 function Header() {
 	return (
 		<header>
-			<div className="container">
 			<div className="logo">
-            <a href="#!">Logo
-            </a>
-          </div>
-			<nav>
+                <a href="#!">Logo</a>
+            </div>
+			<div className="nav">
 				<ul className="menu-list">
 					<li>
 						<a href="#!">Home</a>
@@ -21,7 +19,6 @@ function Header() {
 						<a href="#!">Contact</a>
 					</li>
 				</ul>
-			</nav>
 			</div>
 		</header>
 	);
